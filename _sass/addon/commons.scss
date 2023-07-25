@@ -713,7 +713,10 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: var(--sidebar-bg);
+  /*background: var(--sidebar-bg);*/
+  background-image: url('/assets/img/night_sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
