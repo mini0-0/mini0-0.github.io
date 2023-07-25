@@ -280,6 +280,16 @@ i {
       margin-top: 0;
       margin-bottom: 0;
     }
+
+    /* [scroll-focus] added by `smooth-scroll.js` */
+    &:target:not([scroll-focus]),
+    &[scroll-focus='true'] > p {
+      background-color: var(--footnote-target-bg);
+      width: -moz-fit-content;
+      width: -webkit-fit-content;
+      width: fit-content;
+      transition: background-color 1.5s ease-in-out;
+    }
   }
 }
 
@@ -290,6 +300,12 @@ i {
 
     border-bottom-style: none !important;
     transition: background-color 1.5s ease-in-out;
+  }
+
+  /* [scroll-focus] added by `smooth-scroll.js` */
+  @at-root sup:target:not([scroll-focus]),
+    sup[scroll-focus='true'] > a#{&} {
+    background-color: var(--footnote-target-bg);
   }
 }
 
@@ -386,6 +402,10 @@ i {
       }
     }
   }
+}
+
+.pageviews .fa-spinner {
+  font-size: 80%;
 }
 
 .post-meta {
@@ -956,9 +976,8 @@ $btn-mb: 0.5rem;
 /* 'Cancel' link */
 #search-cancel {
   color: var(--link-color);
-  margin-left: 0.75rem;
+  margin-left: 1rem;
   display: none;
-  white-space: nowrap;
 
   @extend %cursor-pointer;
 }
@@ -1213,6 +1232,10 @@ $btn-mb: 0.5rem;
   }
 
   #core-wrapper {
+    min-height: calc(
+      100vh - #{$topbar-height} - #{$footer-height-mobile}
+    ) !important;
+
     .post-content {
       > blockquote[class^='prompt-'] {
         @include ml-mr(-1.25rem);

@@ -10,7 +10,7 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
@@ -20,19 +20,19 @@ timezone: Asia/Seoul
 
 title: Rose Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 우당탕탕 공부일지 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Rose
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://mini0-0.github.io"
+url: "https://mini0-0.github.io/"
 
 github:
-  username: github_username # change to your github username
+  username: mini0-0 # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,19 +41,22 @@ social:
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/mini0-0  # change to your github homepage
+    - https://github.com/mini0-0 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+      #google_site_verification: fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
   id: # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path: # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
 #
@@ -73,10 +76,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar:
 
 # boolean type, the global switch for TOC in posts.
 toc: true
