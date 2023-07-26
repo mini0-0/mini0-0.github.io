@@ -7,7 +7,7 @@ tags : [프로그래머스, 실리콘밸리에서 날라온 데이터 엔지니�
 ---
 
 
-[1.1주차 과제 - SQL로 Monthly Active User 세보기](#1-1주차-과제---sql로-monthly-active-user-세보기)
+[1.1주차 과제 SQL로 Monthly Active User 세보기](#1-1주차-과제-sql로-monthly-active-user-세보기)
 <br>
 [2. SQL의 장단점](#2-sql의-장단점)
 <br>
@@ -22,7 +22,7 @@ tags : [프로그래머스, 실리콘밸리에서 날라온 데이터 엔지니�
 [7. SQL 고급 문법](#7-sql-고급-문법)
 <br>
 
-# 1.1주차 과제 - SQL로 Monthly Active User 세보기
+# 1.1주차 과제 SQL로 Monthly Active User 세보기
 
 ## 1. 내가 작성한 코드
 
