@@ -228,7 +228,7 @@ load("keeyong", "country_info", results)
 
 ### 1. Open Weather API 호출 응답 보기
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/7615660a-6e52-4092-842d-e6da1d6d6c2f)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/df5682fa-f364-4df8-a01a-252ceb42e37a)
 
 - dt : 필드 날짜
 - temp : 필드 온도 정
@@ -334,7 +334,7 @@ with DAG(
 - 예 1) Users 테이블에서 email 필드
 - 예 2) Products 테이블에서 product_id 필드
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/ce0cbf4a-41fb-4661-9a14-9718909ca4f8)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/9d1caba7-ddb8-4f19-98db-ba4d724ca0e2)
 
 ## 2. 빅데이터 기반 데이터 웨어하우스들은 Primary Key를 지켜주지 X
 
@@ -381,7 +381,7 @@ created_date timestamp default GETDATE()
 
 ### 2. date, created_date를 통한 순서
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/a51fcb57-4f60-4f2f-819a-30e7a3c928a0)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/5a87ac69-7931-44e9-8c39-eab0685db679)
 
 - date : 날짜 정보
 - created_date : 기록한 날
@@ -542,7 +542,7 @@ with DAG(
 
 ## 1. Incremental Update가 실패하면?
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/9137ca10-3eb1-48a1-aed9-a051a2bd93bf)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/c9a47ecd-9241-4b2a-9447-eded00f94106)
 
 - 만약 5월24, 25일에 실패했다면 5월 24일은 23일, 25일은 24일 정보를 읽어오도록 되어 있기 때문에 빠지는 데이터 발생
 - 이럴때 `bakfill`이 필요함 → airflow는 `backfill`이 쉽게 된다
@@ -586,8 +586,7 @@ with DAG(
 - 현재 시간이 2020-08-13 20:00:00이고 처음으로 이 job이 활성화되었다
 - 이 경우 이 job은 몇번 실행될까? (execution_date)
 
-
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/8d72585d-c8d7-404f-9ef8-ebc9abfb1c06)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/651edd11-0a6b-43a9-a9ff-ade0c52e5937)
 
 ### 2. 해설
 

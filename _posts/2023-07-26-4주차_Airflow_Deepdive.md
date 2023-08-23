@@ -23,7 +23,7 @@ tags : [프로그래머스, 실리콘밸리에서 날라온 데이터 엔지니�
 - BEGIN과 END 혹은 BEGIN과 COMMIT 사이에 해당 SQL들을 사용
 - ROLLBACK
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/6c1919c7-c006-4189-bee3-e0ee60906826)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/170ee162-6e24-4e2a-bc83-bc9c9ad13a44)
 
 ### 2. 트랜잭션 구현방법
 
@@ -211,8 +211,7 @@ schedule = '0 2 * * *'
 ## 2. DAG 실행
 
 ### 1. Web UI로 실행
-
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/c3fb1d34-f991-47ec-abc6-a63baa1e9f89)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/67b14381-5164-4202-b35c-59c2dc737f12)
 
 ### 2. 터미널에서 실행(1)
 
@@ -559,8 +558,7 @@ extract >> transform >> load
 - csv_url -  https://s3-geospatial.s3-us-west-2.amazonaws.com/name_gender.csv
 - 값을 암호화 하려면(*****)
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/5ca5d209-729e-4812-9192-01fb28b8e45a)
-
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/86012924-e930-4647-9901-78c8043ec2c3)
 
 ```python
 from airflow import DAG

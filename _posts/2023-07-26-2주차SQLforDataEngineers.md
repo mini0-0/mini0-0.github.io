@@ -67,7 +67,7 @@ ORDER BY 1 DESC
 
 3. COUNT
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/075f806b-a96f-47cc-b975-d8923e50fe47)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/16f1225a-f6e4-4636-bdab-f07ee00b19a0)
 
 # 2. SQL의 장단점
 
@@ -258,7 +258,7 @@ WHERE channel = ‘Google’ OR channel = ‘Youtube
 - =이 아니라 IS를 사용해서 연산해야한다
 
 # 6. SQL JOIN
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/793aa4d5-e0b1-4bba-bfdd-86ef6d62fb8c)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/14bd6c75-1040-442c-858b-6addeac12707)
 
 ## 1. JOIN시 고려해야할 점
 

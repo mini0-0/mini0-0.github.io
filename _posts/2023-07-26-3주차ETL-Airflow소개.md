@@ -154,8 +154,8 @@ OVER (**order by value rows between 2 preceding and 2 following**) AS rolling_su
 FROM raw_data.rows_test ;
 ```
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/47ba88ce-a24d-4e44-9858-904f6f7f34b3)
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/66dd3a6f-0234-476d-8f81-4ad188a1f322)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/6051ef4e-848c-4480-ae9d-fd293dbdef28)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/772e190a-d5de-41b3-9b5e-0280aa0a7531)
 
 
 - 위의 코드는 현재 위치에서 앞에2개 뒤에2개 sum한 값
@@ -282,9 +282,8 @@ ORDER BY 1, 2;
 - 보존 기한이 있는 구조화된 데이터를 저장하고 처리하는 스토리지
 - 보통 BI 툴들(룩커, 태블로, 수퍼셋, …)은 데이터 웨어하우스를 백엔드로 사용함
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/4aae84b2-cf7c-4aa2-ad6f-f94cda99b42e)
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/b8050190-3030-49f2-816d-c1b4d2835c7a)
-
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/a006d6b5-2912-4553-8757-2c2193a504c4)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/5f2928a6-1463-45b3-ae55-f7df4a84392e)
 
 ## 3. Data Pipleline의 정의
 
@@ -364,11 +363,10 @@ ORDER BY 1, 2;
 
 ### 1. 단일 서버
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/30d3e2cc-1f95-4ae1-a10c-6102a13b3a42/Untitled.png)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/f1fe6de0-cce5-458a-93b7-6fcc06a3ef4c)
 
 **1. Airflow 스케일링 방법**
-
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/9a36b2e0-ee60-4bb5-bd9a-b3b25ab774a8)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/3ed675db-0498-4b5d-8e01-5afd35c19e60)
 
 - 스케일 업(더 좋은 사양 서버 사용)
 - 스케일 아웃(서버 추가)
@@ -376,9 +374,7 @@ ORDER BY 1, 2;
 
 
 ### 2. 다수 서버
-
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/13ca9cf3-f5c1-4efa-8d2c-686e4f5eaab0)
-
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/645c79a5-2a20-4315-8f9c-a49a9652ec1c)
 
 ## 4. Airflow 개발의 장단점
 
@@ -410,9 +406,11 @@ ORDER BY 1, 2;
         
 
 ### 2. DAG 구성 예제(1)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/187f81b7-4077-4d69-ad4c-475d5a421be9)
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/98ebdd45-21b8-4c51-83fe-6bd730d426e1)
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/aff5c479-e4be-45a5-ab88-ae22f40bebdb)
+### 3. DAQ 구성 예제(2)
+
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/7330991a-9465-49ae-8160-fa33623471f5)
 
 
 ### 4. 모든 Task에 필요한 기본정보

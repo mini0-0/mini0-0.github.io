@@ -209,9 +209,9 @@ with DAG(
 ## 1. ETL 소개
 
 ### 1. **MySQL → AWS Redshift로 복사**
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/6f568eaa-2501-41cb-b00b-9de8b0e273c4)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/2eeb2581-151c-4824-916a-63500fa270be)
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/e00a5eef-3128-428e-af59-902ed7cee850)
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/1402e3b8-5cc1-4178-8cf1-04fcfe3961a0)
 
 - 레코드가 몇개 없으면 → INSERT INTO
 - 레코드가 많다면 → COPY Command
@@ -258,7 +258,7 @@ MySQL쪽 테이블로부터 Redshift 테이블로 복사하는 것을 연습하�
     
 - COPY 과정
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/ddc65311-d576-41d4-8b49-4450fb807a6c)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/90040f7f-2739-4743-838d-5e365dec42ef)
 
 ### 4. MySQL_to_Redshift.py
 <details>
@@ -577,7 +577,7 @@ airflow dags backfill dag_id -s 2018- 07- 01 -e 2018- 08- 01
 것이 NPS
     - 7, 8점은 계산에 안들어
 
-![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/6b912360-de3c-42d9-9342-6b1e70809dd5)
+![image](https://github.com/mini0-0/mini0-0.github.io/assets/63296983/543f1f1f-3bc0-4045-b4f2-6948554f51d7)
 
 ### 2. 일별NPS 계산 SQL
 
